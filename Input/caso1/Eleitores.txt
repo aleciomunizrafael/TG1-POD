@@ -1,0 +1,315 @@
+#########################################################################################
+# Os dados a seguir estão organizados da seguinte forma:                                #
+#   Linhas que começam com "ELEITOR:" são instancias de eleitor no seguinte formato:    #
+#       nome,cpf,nascimento,titulo,zona,secao                                           #
+#   Linhas que começam com "VEREADOR:" são instancias de vereador no seguinte formato:  #
+#       nome,cpf,nascimento,titulo,zona,secao,bairro,projeto_de_lei                     #
+#   Linhas que começam com "PREFEITO:" são instancias de prefeito no seguinte formato:  #
+#       nome,cpf,nascimento,titulo,zona,secao,cpf_viceprefeito,plano_de_governo         #
+#########################################################################################
+
+ELEITOR: Emerson Nogueira Bassani,12047658209,06/09/1939,982736152100,1,3
+ELEITOR: Catarina Cordeiro Souza,86708388855,17/08/1977,091799022135,2,1
+VEREADOR: Alan Leite Lima,31180406290,02/06/1956,357741922178,2,1,66004,66,Cidade Baixa,Centro da juventude
+ELEITOR: Viviane Machado Araujo,19887458376,17/09/1978,055573052135,2,1
+ELEITOR: Gilberto Schneider Tavares,99367356501,16/10/1947,763466682194,1,1
+ELEITOR: Maria Assis Barbosa,78448185307,11/12/1969,807394562143,1,2
+VEREADOR: Vicente Lacerda Mesquita,72252202920,23/06/1932,855512112135,2,1,36004,36,Moinhos de Vento,Programa de plantio de arvores|Incubadora de empresas municipal|Cisternas em predios publicos
+ELEITOR: Raquel Freitas Dias,28932000360,11/05/1967,570363602186,1,2
+ELEITOR: Julia Moreira Ventura,77292305504,20/09/1949,678919312135,1,1
+ELEITOR: Ivan Damasceno Paiva,75683436508,27/09/1964,906849462127,1,1
+PREFEITO: Teresa Zanetti Figueiredo,85888760943,05/02/1995,018121852135,1,3,12,12,28273484114,Modernizacao da administracao publica
+ELEITOR: Milena Assis Franco,21625412975,19/10/1987,721178942143,1,1
+ELEITOR: Andreia Carvalho Saraiva,29868229596,10/01/1996,187483202151,1,3
+VEREADOR: Leandro Conceicao Pinheiro,26884573228,14/09/1984,890558572143,1,2,36008,36,Azenha,Pontos de onibus cobertos|Arborizacao das avenidas
+ELEITOR: Ricardo Quintana Souza,58786961268,28/03/1941,270931912100,1,1
+PREFEITO: Sr. Epaminondas,12345678910,07/08/1905,604060442135,2,1,75,75,2629245437,Instalacao de cameras na lua
+ELEITOR: Joao Almeida Magalhaes,49787184061,25/10/1962,842534372178,1,3
+ELEITOR: Joaquim Maia Gomes,61689226870,20/04/1972,242481542100,1,2
+ELEITOR: Cecilia Kunz Siqueira,16458341075,21/01/1974,507688842186,1,1
+ELEITOR: Juliano Paiva Verissimo,12142455107,20/11/1973,585143832186,1,2
+ELEITOR: Jefferson Zanella Moura,25261487900,15/06/1980,295347752194,1,2
+ELEITOR: Cristiano Siqueira Camargo,96719615505,21/12/1938,903604042135,1,1
+ELEITOR: Douglas Novaes Chaves,90285155938,13/09/1963,954541132186,1,1
+VEREADOR: Jorge Siqueira Guimaraes,13290296903,02/11/1962,316558132135,2,1,12007,12,Centro,Revitalizacao de rios urbanos
+PREFEITO: Cristiano Bezerra Teixeira,46973969526,07/08/1975,664060942135,2,1,75,75,26292454037,Instalacao de cameras em areas de grande movimento
+ELEITOR: Rafael Castro Barbosa,33203432463,31/12/1968,113252952119,2,1
+VEREADOR: Monica Paiva Costa,76141519504,19/12/1955,714215032119,2,1,67006,67,Gloria,Programa de iluminacao de pracas|Cinema comunitario itinerante|Reforma das escolas municipais
+ELEITOR: Bernardo Zimmermann Reis,13733380169,01/11/1994,033997012127,1,3
+VEREADOR: Cesar Freitas Cardoso,19794129950,19/10/1981,704528392186,1,2,19007,19,Cidade Baixa,Central de atendimento digital|Incubadora de empresas municipal
+VEREADOR: Igor Guimaraes Leite,84645857053,29/11/1967,669246032143,1,1,67002,67,Gloria,Abrigos para animais abandonados|Feiras de economia solidaria|Projeto de turismo municipal
+VEREADOR: Daniela Correia Xavier,32749209404,20/10/1957,389653992135,1,2,23002,23,Petropolis,Cisternas em predios publicos|Central de atendimento digital
+VEREADOR: Sandra Tavares Rezende,86032519325,06/02/1960,625169652143,2,1,12003,12,Bom Fim,Academias ao ar livre|Painéis solares em escolas|Reforma das escolas municipais
+ELEITOR: Heloisa Chaves Toledo,33578646490,21/11/1981,434835022119,1,1
+ELEITOR: Caio Godoy Pinheiro,60909179662,28/07/1967,527214892127,1,1
+ELEITOR: Mariana Ventura Cordeiro,47049849901,28/12/1947,050763952143,1,3
+ELEITOR: Yasmin Queiroz Oliveira,33936055858,08/06/1995,409770162178,1,1
+ELEITOR: Mateus Weber Pereira,88824421016,26/06/1980,958702062135,1,1
+ELEITOR: Marcela Cardoso Correia,94237933636,01/09/1954,383452532186,2,1
+ELEITOR: Amelia Nunes Braga,07307731088,03/03/1996,192231892186,1,3
+ELEITOR: Claudia Franco Garcia,85628164500,19/01/1993,162743832119,1,3
+ELEITOR: Silvia Martins Kunz,00332899802,21/11/1987,336242372194,1,2
+VEREADOR: Mauricio Meireles Falcao,68661569044,01/02/1959,897919352119,2,1,75006,75,Restinga,Painéis solares em escolas
+ELEITOR: Renan Bueno Vasconcelos,37058961212,14/03/1993,455227412119,2,1
+ELEITOR: Luis Figueiredo Rezende,04945453560,13/09/1934,418675572100,1,3
+VEREADOR: Leandro Franco Alves,33118157003,03/01/2005,104472542151,2,1,66002,66,Cristal,Microcredito para pequenos negocios
+ELEITOR: Vanessa Campos Azevedo,80922607885,26/07/1933,802909742143,1,3
+ELEITOR: Ricardo Peixoto Conceicao,81547387165,01/11/1999,924372462100,1,2
+VEREADOR: Douglas Pereira Lima,63590550740,26/01/1931,994071242186,2,1,95011,95,Partenon,Pavimentacao de ruas
+VEREADOR: William Pacheco Freitas,00439090784,12/08/2001,219503832143,1,2,72008,72,Ipanema,Microcredito para pequenos negocios|Projeto de turismo municipal
+VEREADOR: Igor Bassani Cruz,78217396507,19/05/1976,521932842100,1,2,67007,67,Centro,Programa de iluminacao de pracas|Revitalizacao de pracas centrais|Programa de incentivo a leitura
+VEREADOR: Enzo Rezende Campos,55632314960,25/11/1972,670346512194,2,1,19004,19,Tristeza,Incubadora de empresas municipal
+ELEITOR: Fernando Batista Dias,25471285948,26/11/1992,947819392186,1,2
+ELEITOR: Mariana Fogaca Fonseca,23223438467,12/03/1969,135356362194,1,1
+ELEITOR: Joao Matos Verissimo,15212688868,26/08/1974,361850372194,2,1
+VEREADOR: Tadeu Meireles Vieira,08262979869,01/12/1998,651910932151,1,3,36005,36,Cidade Baixa,Faixas elevadas para pedestres
+ELEITOR: Mauricio Schmidt Duarte,33169892690,11/04/1977,919732492160,1,3
+ELEITOR: Augusto Fonseca Sampaio,28805564907,16/04/1997,848494792127,1,3
+ELEITOR: Jose Xavier Gomes,62205452223,08/09/1958,683496462186,2,1
+ELEITOR: Wallace Toledo Rezende,49140008908,23/10/1978,165871932186,1,2
+ELEITOR: Monica Franca Vasconcelos,02100309927,04/09/1985,360423272127,1,2
+VEREADOR: Cristina Muller Meireles,28516357279,26/04/1954,519571042151,1,3,66010,66,Ipanema,Parques infantis nos bairros
+VEREADOR: Giovanna Chaves Pinheiro,29549335267,20/05/1980,508720392178,1,2,72005,72,Petropolis,Microcredito para pequenos negocios
+ELEITOR: Bianca Falcao Magalhaes,03661297597,01/07/1986,632465942186,1,3
+VEREADOR: William Ventura Moura,95109147973,02/12/1942,004602872100,1,3,95004,95,Tristeza,Programa de apoio ao empreendedor
+VEREADOR: Ivan Nascimento Machado,08425134269,28/03/1995,069806342194,1,1,75003,75,Gloria,Cursos profissionalizantes gratuitos|Painéis solares em escolas|Centro de atendimento ao trabalhador
+VEREADOR: Gustavo Zanetti Zimmermann,82549838602,13/06/1950,425520462135,1,2,72004,72,Centro,Programa de plantio de arvores
+ELEITOR: Raul Maia Paiva,10300227558,14/07/1971,695042222100,1,2
+VEREADOR: Diana Soares Ramos,97246553428,03/08/1952,870437822186,1,1,67008,67,Moinhos de Vento,Cursos profissionalizantes gratuitos|Hortas comunitarias
+ELEITOR: Gustavo Meireles Figueiredo,08746774165,17/11/1981,888439122119,1,1
+ELEITOR: Catarina Rodrigues Barbosa,19733486167,27/05/2004,836120762100,1,1
+ELEITOR: Gustavo Xavier Bertoli,71335483802,08/11/1974,160467672151,2,1
+ELEITOR: Ingrid Krause Nunes,70500402906,26/10/1940,027978672127,1,1
+ELEITOR: Eloa Assis Damasceno,28276222463,11/12/1999,334796662100,2,1
+ELEITOR: Benicio Machado Pinheiro,43700358806,27/10/1986,562987032178,1,2
+VEREADOR: Jose Scherer Franco,11991924062,17/04/1995,535449142135,1,3,67001,67,Moinhos de Vento,Arborizacao das avenidas|Orcamento participativo digital|Incubadora de empresas municipal
+ELEITOR: Vanessa Marques Xavier,88494107860,25/09/1949,113979612143,1,2
+ELEITOR: Silvia Cruz Leal,45572025860,01/03/2009,045493892186,1,3
+ELEITOR: Vinicius Franco Valente,84456340118,12/10/1936,696202212127,1,3
+ELEITOR: Marcela Weber Nascimento,85450256701,30/01/1973,942407132100,1,1
+ELEITOR: Eduarda Braga Prado,50012656658,18/01/1964,780192002119,1,3
+ELEITOR: Pedro Dias Correia,96292552438,16/06/1968,072463592178,1,3
+ELEITOR: Fernanda Saraiva Petry,60275944387,24/01/1963,647467992127,1,3
+ELEITOR: Messi é melhor do que o Cristiano Ronaldo nao tem como,12345678910,01/01/2026,12345678910,1,3
+VEREADOR: Isabela Fonseca Monteiro,45257584654,11/09/1960,464619182119,1,3,95006,95,Restinga,Quadras esportivas comunitarias
+ELEITOR: Noah Vargas Castro,45514841561,02/06/1938,862951042160,2,1
+VEREADOR: Denise Lopes Araujo,32435573995,07/01/2010,431085662186,1,1,19005,19,Ipanema,Programa de iluminacao de pracas|Revitalizacao de rios urbanos|Centro municipal de artes
+VEREADOR: Gabriel Damasceno Martins,38163712643,24/09/1959,579964232100,1,2,19003,19,Azenha,Laboratorios de informatica nas escolas|Espaco para startups locais|Sinalizacao viaria renovada
+ELEITOR: Guilherme Veloso Figueiredo,24419320125,12/06/2004,650379012127,1,1
+ELEITOR: Milena Camargo Quintana,72833640994,13/06/1959,226173262178,1,3
+ELEITOR: Marcio Cavalcanti Krause,02428105000,28/07/1956,201804722178,1,1
+ELEITOR: Ivan Camargo Oliveira,85573269712,29/07/1954,454377412100,1,3
+ELEITOR: Matheus Maia Damasceno,08624030579,27/10/1988,890340552127,1,1
+ELEITOR: Ana Soares Petry,43719462676,22/01/1974,340681692119,2,1
+ELEITOR: Wesley Rodrigues Toledo,51779589220,07/07/1960,767598292160,1,3
+VEREADOR: Lionel Messi,19794129950,19/10/1981,704528392186,1,2,10,19,Bons Ares,Central de atendimento digital para jogadores|Incubadora de clubes municipais
+ELEITOR: Elias Petry Martins,87403809475,20/05/2010,735417332143,1,3
+ELEITOR: Cecilia Siqueira Almeida,66227873870,20/09/2002,876958232143,1,3
+ELEITOR: Manuela Rocha Franca,09749486757,05/07/1973,614079452143,1,3
+PREFEITO: Sergio Serrano Pereira,69424434090,21/09/1961,648056812135,1,1,95,95,42844962718,Criacao de programas de arborizacao urbana
+ELEITOR: Juliano Meireles Mesquita,63863117603,01/12/1975,229217492143,1,1
+ELEITOR: Roberta Pinheiro Sales,43395528448,20/05/1975,734349682186,1,1
+ELEITOR: Margarida Fogaca Carvalho,60385844042,21/06/2002,002720702119,1,3
+ELEITOR: Michele Vargas Ventura,77555599635,03/01/1934,762028152178,1,1
+ELEITOR: Pedro Franca Santana,69965171092,27/08/1952,384495512160,1,1
+VEREADOR: Larissa Quintana Mendes,52448940215,16/10/1951,603271302186,1,3,12004,12,Bom Fim,Centro da juventude
+ELEITOR: Bernardo Novaes Sales,98837031041,23/01/1950,295279272135,1,3
+ELEITOR: Gilberto Novaes Muller,39519810404,21/01/1992,176488402151,1,1
+ELEITOR: Noah Andrade Weber,73751294872,21/08/1957,426670262143,1,3
+VEREADOR: Guilherme Fernandes Falcao,93504533552,04/07/1992,207436892143,1,1,23003,23,Centro,Central de atendimento digital|Programa de adocao responsavel
+PREFEITO: Livia Macedo Soares,69507857206,19/10/1985,935841032127,1,1,67,67,12225976082,Melhoria do atendimento de emergencia
+ELEITOR: Denise Batista Maia,96836922579,29/01/1971,503578932127,1,2
+ELEITOR: Debora Santana Magalhaes,85440912100,28/04/1976,226693172119,1,2
+ELEITOR: Isadora Martins Sales,06300943143,03/11/1981,200455252178,1,1
+VEREADOR: Eliane Rocha Aguiar,33892492220,18/06/1972,931361502186,1,2,36011,36,Petropolis,Feiras de economia solidaria
+VEREADOR: Noah Cardoso Coelho,44726228900,14/10/1980,078705022194,1,1,75004,75,Sarandi,Camera de monitoramento em areas publicas|Revitalizacao de rios urbanos|Creches em tempo integral
+ELEITOR: Carolina Zanella Sales,17008364636,21/06/1979,198318332127,2,1
+ELEITOR: Ana Torres Galvao,79756252642,25/01/1951,884051192160,1,2
+ELEITOR: Vitor Pacheco Ventura,71492142662,03/07/1970,214075632100,2,1
+ELEITOR: Rafael Martins Ramos,06065563030,02/01/1979,598180982127,1,1
+ELEITOR: Wagner Moreira Sampaio,78988404459,19/11/1999,561991482100,1,1
+ELEITOR: Rebeca Machado Moreira,77688059259,26/02/1960,393864142160,1,1
+ELEITOR: Carolina Padilha Oliveira,90512050406,20/09/1983,961133362186,1,2
+ELEITOR: Kaique Schmidt Mendes,03388139180,13/08/1960,047617532151,1,2
+VEREADOR: William Souza Esteves,65744567380,12/07/1957,478173682178,1,3,63007,63,Moinhos de Vento,Pontos de coleta de residuos eletronicos|Museu historico municipal
+ELEITOR: Leticia Kunz Muller,54433936421,15/03/2006,024242882186,1,2
+ELEITOR: Heloisa Peixoto Esteves,81326254804,06/10/1991,735431832135,2,1
+ELEITOR: Arthur Martins Araujo,87066301706,24/03/2009,152587002143,1,1
+ELEITOR: Bruno Carvalho Magalhaes,38610654362,02/02/1952,320930422143,1,2
+VEREADOR: Arthur Vieira Paiva,25342378290,20/08/1969,165020032127,1,1,36009,36,Cidade Baixa,Parque municipal para animais
+ELEITOR: Mariana Azevedo Saraiva,96312195422,20/05/1947,047505542100,1,3
+VEREADOR: Arthur Sampaio Sampaio,87299077990,25/05/2002,246447872178,1,2,72002,72,Menino Deus,Orcamento participativo digital
+ELEITOR: Vanessa Braga Dutra,47683535923,19/05/1940,881081302127,1,2
+ELEITOR: Gabriela Krause Guimaraes,45720457127,11/04/1977,527009222194,2,1
+ELEITOR: Danilo Rezende Farias,97588726725,24/08/1987,701757422160,1,2
+VEREADOR: Mauricio Campos Lopes,96688622106,06/05/1959,570023522119,1,2,63005,63,Petropolis,Feiras de economia solidaria|Programa de incentivo a leitura
+ELEITOR: Antonio Prado Sales,94038099067,01/03/1976,744189572186,2,1
+ELEITOR: Andreia Reis Serrano,98430338098,20/04/1987,466891962127,2,1
+PREFEITO: Vinicius Pereira Siqueira,11705420931,22/10/1970,641914102151,1,2,36,36,33619371830,Criacao de programas de saude preventiva
+ELEITOR: Larissa Cruz Esteves,97917598802,23/03/1953,790293442178,1,2
+ELEITOR: Diego Prado Bueno,43666993540,02/11/1969,868544082160,1,1
+ELEITOR: Jefferson Vieira Kunz,13182926896,12/03/1937,560119322119,2,1
+VEREADOR: Alexandre Paiva Mesquita,93387692757,11/03/1946,521986582135,1,1,72006,72,Tristeza,Feiras de economia solidaria
+VEREADOR: Quesia Vieira Souza,29605305437,22/11/1969,335646012186,1,2,23005,23,Petropolis,Cinema comunitario itinerante
+ELEITOR: Rodrigo Kunz Muller,30467095604,23/11/1986,285870412160,1,3
+VEREADOR: Alessandra Ventura Moura,85120632033,21/04/1963,036170932135,1,2,75002,75,Bom Fim,Feirao de empregos municipal|Pontos de coleta de residuos eletronicos
+ELEITOR: Alan Figueiredo Souza,61216071730,21/05/1955,716724892186,2,1
+ELEITOR: Igor Weber Magalhaes,71650315295,14/03/1969,155397712100,1,3
+ELEITOR: Roberta Paiva Peixoto,26141887511,30/10/2005,002753042194,1,1
+VEREADOR: Vinicius Barbosa Novaes,90297338374,10/09/2001,710203902100,1,2,95002,95,Bom Fim,Academias ao ar livre|Cisternas em predios publicos|Cinema comunitario itinerante
+ELEITOR: Jorge Teixeira Garcia,04984763671,10/11/1996,409705762143,1,2
+ELEITOR: Laura Maia Esteves,32347582550,21/05/1974,225826962186,1,3
+ELEITOR: Tadeu Mendes Oliveira,56904189789,17/08/1952,742762122127,1,1
+ELEITOR: Karina Carvalho Machado,70661045285,15/02/1982,633894952186,1,3
+VEREADOR: Samuel Petry Siqueira,07806614605,19/03/2005,976693902194,1,1,72003,72,Partenon,Pavimentacao de ruas
+ELEITOR: Cristina Scherer Guimaraes,67767989151,09/12/1957,823809892178,1,3
+ELEITOR: Vera Galvao Reis,40568925475,25/07/1982,504412782178,1,2
+VEREADOR: Wallace Ribeiro Esteves,76281941500,03/01/1974,849736802135,1,3,95003,95,Gloria,Incubadora de empresas municipal
+VEREADOR: Ingrid Matos Saraiva,33050317000,28/06/1981,430956022194,1,2,66006,66,Azenha,Centro da juventude|Microcredito para pequenos negocios|Programa de estagio municipal
+ELEITOR: Vitor Lacerda Weber,27732972457,19/11/1979,198729292143,1,2
+ELEITOR: Augusto Veloso Gomes,56803643280,18/03/1987,210588302160,1,1
+ELEITOR: Renato Valente Lopes,77251288672,23/02/1986,405423752160,1,1
+ELEITOR: Augusto Torres Rodrigues,49433894570,12/03/1943,721051062151,1,2
+ELEITOR: Rodrigo Barros Moreira,09283601807,13/07/1974,855837522178,1,2
+ELEITOR: Gloria Lopes Freitas,27793931653,02/10/2005,013144102135,2,1
+ELEITOR: Douglas Siqueira Machado,09370905308,06/05/2002,010040752178,1,3
+ELEITOR: Helena Vasconcelos Rangel,38657697564,24/11/1995,379338082143,1,2
+ELEITOR: Wagner Hoffmann Matos,37494523006,16/11/1948,935139222127,2,1
+ELEITOR: Emanuelle Batista Azevedo,36215864820,08/06/1998,424261402151,1,3
+ELEITOR: Danilo Godoy Chaves,54142164872,12/12/1932,615825622119,1,1
+ELEITOR: Helena Braga Soares,21433020025,02/11/1952,112990252186,2,1
+ELEITOR: Danilo Franca Bezerra,74432103027,21/12/1991,241395222143,2,1
+ELEITOR: Alexandre Muller Guimaraes,60171721829,24/12/1981,974366232143,1,1
+ELEITOR: Nelson Serrano Teixeira,12066695513,17/09/1973,871339002151,1,3
+ELEITOR: Ingrid Leal Aguiar,09036461294,15/10/1961,638704412135,1,3
+VEREADOR: Heitor Zimmermann Cavalcanti,90699154480,22/02/1936,412483372186,1,3,23004,23,Sarandi,Creches em tempo integral|Museu historico municipal|Incubadora de empresas municipal
+VEREADOR: Heloisa Coelho Machado,03272966749,21/01/1937,881250092100,1,1,19006,19,Gloria,Portal de transparencia municipal|Quadras esportivas comunitarias
+ELEITOR: Henrique Cardoso Batista,02025081537,09/11/1980,225792512160,1,1
+PREFEITO: Arthur Nascimento Padilha,21434774228,03/01/2008,676169902127,1,3,23,23,56098935858,Apoio a familias em situacao de vulnerabilidade
+ELEITOR: Cecilia Nogueira Verissimo,93060226202,30/07/1954,835161382127,1,2
+VEREADOR: Danilo Monteiro Bezerra,43814471407,16/04/1995,920763382135,1,2,66009,66,Petropolis,Totens de atendimento ao cidadao|Museu historico municipal|Centro de atendimento ao trabalhador
+ELEITOR: Joaquim Melo Valente,85146960763,03/09/2009,206435392186,1,3
+ELEITOR: Wesley Coelho Cunha,85064009534,17/08/1941,646859982160,2,1
+ELEITOR: Wallace Siqueira Vargas,94322688292,09/01/2001,495760442178,2,1
+ELEITOR: Laura Tavares Martins,76472858233,15/11/2002,401121752151,1,3
+VEREADOR: Natalia Fogaca Pacheco,54294063920,02/05/1964,245979962143,1,1,63006,63,Bom Fim,Camera de monitoramento em areas publicas|Centro da juventude|Cursos profissionalizantes gratuitos
+ELEITOR: Francisco Cruz Novaes,05197289392,22/01/1932,910030232151,1,3
+VEREADOR: Leticia Tavares Miranda,25707547495,02/11/1943,168031852100,2,1,19001,19,Azenha,Cursos profissionalizantes gratuitos|Incubadora de empresas municipal|Orcamento participativo digital
+VEREADOR: Vitor Gomes Carvalho,07661623978,02/12/1996,856179932100,1,1,23001,23,Gloria,Revitalizacao de pracas centrais|Quadras esportivas comunitarias|Revitalizacao de rios urbanos
+ELEITOR: Teresa Castro Meireles,42566769370,25/12/1934,485610512151,1,3
+ELEITOR: Marcio Toledo Costa,80990334694,12/11/1945,339983992100,1,2
+ELEITOR: Larissa Leite Vargas,55660760171,26/09/1959,024636202178,1,1
+ELEITOR: Isabela Costa Carvalho,65038541887,03/12/1932,143188192143,1,3
+VEREADOR: Joao Monteiro Conceicao,40283075546,20/07/2003,079953392151,1,3,95009,95,Centro,Reforma das escolas municipais|Cursos profissionalizantes gratuitos|Revitalizacao de rios urbanos
+ELEITOR: Fabiana Sales Moura,62030755311,18/10/1948,989158982151,1,3
+ELEITOR: Carolina Aguiar Coelho,20921372639,04/11/1955,307652492119,1,1
+ELEITOR: Nicole Caldeira Scherer,67300567380,12/05/1945,231044722100,1,2
+ELEITOR: Luana Meireles Schmidt,82116646154,17/12/1984,679625862100,1,1
+ELEITOR: Eliane Bezerra Santana,47994252184,16/08/1995,440004722119,1,1
+ELEITOR: Sabrina Chaves Lima,54236051990,05/11/1978,631408942100,2,1
+VEREADOR: Priscila Zimmermann Coelho,52299584994,19/06/1936,758313672151,1,2,67003,67,Navegantes,Arborizacao das avenidas
+ELEITOR: Carla Zimmermann Rodrigues,42145579052,28/10/1974,708454922151,1,3
+ELEITOR: Miguel Medeiros Duarte,08305807606,16/10/1995,849194282186,2,1
+ELEITOR: Nicolas Guimaraes Leite,97725642544,16/07/1987,854468062143,2,1
+ELEITOR: Murilo Vieira Camargo,93105752390,02/09/1938,843051862186,2,1
+VEREADOR: Bruno Falcao Prado,43842101830,17/06/1966,196924032100,2,1,72009,72,Tristeza,Feirao de empregos municipal|Sinalizacao viaria renovada
+PREFEITO: Eliane Nascimento Paiva,86882419965,14/08/1993,601472642100,1,1,72,72,69795510606,Fortalecimento da guarda municipal
+ELEITOR: Fabio Kunz Verissimo,74008964401,08/07/1977,690170422143,1,3
+VEREADOR: Cristina Cordeiro Paiva,61185226850,08/04/1971,275360042100,1,1,67009,67,Cristal,Aplicativo de servicos municipais|Programa de iluminacao de pracas
+VEREADOR: Teresa Ramos Azevedo,67777110233,24/01/1962,169762942178,2,1,66003,66,Partenon,Abrigos para animais abandonados|Revitalizacao de pracas centrais|Programa de iluminacao de pracas
+ELEITOR: Sergio Lima Coelho,99466118056,19/03/1931,834511542119,2,1
+ELEITOR: Diana Weber Cruz,81292458844,17/11/2007,035030142135,1,1
+ELEITOR: Adriana Cruz Marques,46621451806,16/10/2007,657634712194,2,1
+VEREADOR: Rebeca Cruz Monteiro,95413682557,15/03/1959,386084332151,1,1,12008,12,Centro,Creches em tempo integral
+VEREADOR: Igor Franca Rodrigues,34447635305,21/03/1984,377521642178,1,1,63003,63,Menino Deus,Totens de atendimento ao cidadao
+ELEITOR: Carlos Barbosa Moreira,52997983770,21/06/1980,511430212135,1,2
+ELEITOR: Daniel Santana Gomes,90765987384,10/10/1996,047709932160,1,1
+ELEITOR: Paula Serrano Campos,40933278748,15/02/1932,802011042178,2,1
+ELEITOR: Miguel Meireles Ventura,76701154751,07/08/1990,443961832127,1,1
+ELEITOR: Karina Moura Pinto,20305418181,12/08/1957,775659052135,1,2
+ELEITOR: Camila Fogaca Nunes,69764797830,21/12/1988,228743362127,1,2
+ELEITOR: Bianca Krause Assis,59431335859,09/06/1964,537101932143,2,1
+VEREADOR: Cecilia Monteiro Rocha,48578441257,20/08/1941,527971232151,2,1,36006,36,Sarandi,Central de atendimento digital|Projeto de turismo municipal|Totens de atendimento ao cidadao
+VEREADOR: Caio Petry Almeida,41270660756,27/04/1941,237634262100,1,2,36007,36,Navegantes,Centro de atendimento ao trabalhador|Bibliotecas nos bairros|Programa de plantio de arvores
+ELEITOR: Bruno Ferreira Macedo,48879812360,03/08/2003,825194172127,1,3
+VEREADOR: Diego Padilha Costa,18883345843,13/02/1975,268807032151,2,1,66001,66,Moinhos de Vento,Creches em tempo integral
+ELEITOR: Isabela Barros Saraiva,14867102474,23/03/1953,066385142186,1,3
+ELEITOR: Tatiane Godoy Saraiva,96683817502,02/12/1961,608309882151,2,1
+ELEITOR: Zilda Cordeiro Assis,33204408701,19/02/1982,271552132119,1,1
+VEREADOR: Jaqueline Barbosa Alves,78152048992,01/11/1985,434103872100,1,2,66005,66,Tristeza,Espacos de lazer para familias|Feiras de economia solidaria|Bibliotecas nos bairros
+ELEITOR: Sergio Machado Rodrigues,34281374507,08/08/1940,758299902178,1,2
+ELEITOR: Davi Duarte Bueno,01035168910,22/04/1998,946436232119,1,1
+VEREADOR: Veronica Miranda Rocha,66810352562,24/03/1948,384158062143,2,1,95005,95,Centro,Portal de transparencia municipal|Centro municipal de artes
+ELEITOR: Marcio Franca Scherer,08908179100,21/03/1975,832908082186,1,2
+ELEITOR: Thiago Bittencourt Soares,92848032090,16/11/1962,828763272151,1,2
+ELEITOR: Olivia Siqueira Meireles,02891657500,07/04/2010,002542632135,1,1
+VEREADOR: Fabio Braga Silva,27158703100,07/01/1948,918409572186,1,2,63002,63,Sarandi,Totens de atendimento ao cidadao
+VEREADOR: Joao Quintana Cavalcanti,46163010183,09/11/1999,255811782100,1,1,72001,72,Petropolis,Cinema comunitario itinerante
+VEREADOR: Carolina Almeida Peixoto,10659344084,21/03/1953,886202102186,1,1,67004,67,Moinhos de Vento,Programa de apoio ao empreendedor
+ELEITOR: Gustavo Camargo Rocha,39879812530,16/11/1934,804534452143,2,1
+ELEITOR: Miguel Soares Leal,98656461885,29/01/1935,035108222135,1,3
+ELEITOR: Danadinho da Silva,abcdefghijk,29/01/1935,035108222135,1,3
+ELEITOR: Anderson Barros Andrade,71742920977,16/12/1946,097740472100,1,2
+ELEITOR: Andre Santos Conceicao,40621849901,22/06/1955,951430862160,2,1
+VEREADOR: Helena Moreira Valente,39558840157,04/05/1984,182870132186,1,1,12001,12,Cidade Baixa,Arborizacao das avenidas
+ELEITOR: Michele Braga Rangel,99456209164,26/01/2007,067372352100,1,3
+ELEITOR: Maria Muller Cruz,23905143593,04/09/1969,313419792151,1,3
+VEREADOR: Julia Sampaio Cordeiro,52983084655,09/11/2007,476681852151,1,1,95010,95,Restinga,Faixas elevadas para pedestres
+ELEITOR: Daniel Machado Schmidt,39091057858,16/04/1967,648586142160,1,1
+ELEITOR: Patricia Ferreira Lacerda,77168022326,16/11/2009,669207132160,1,2
+ELEITOR: Roberto Godoy Siqueira,87014591126,29/07/1997,001714752194,1,3
+ELEITOR: Viviane Brito Monteiro,41688501452,23/02/1993,824207132100,1,1
+VEREADOR: Mateus Rodrigues Costa,46903373306,19/05/1975,656248942178,1,1,36002,36,Azenha,Ecopontos nos bairros
+ELEITOR: Marcela Esteves Esteves,38409955075,08/02/2002,749180252100,2,1
+ELEITOR: Michele Oliveira Franca,90320900207,08/06/2002,323528382143,1,2
+VEREADOR: Gustavo Franca Damasceno,66580304138,07/05/1971,905947412100,1,2,67005,67,Gloria,Revitalizacao de pracas centrais
+ELEITOR: Valentina Costa Zanetti,43811539280,10/05/1950,769498562160,2,1
+ELEITOR: Viviane Schmidt Fernandes,14139060280,24/02/1971,742267102151,1,1
+VEREADOR: Ivan Monteiro Rezende,42158815957,09/12/1954,143489602178,1,1,36010,36,Tristeza,Espacos de lazer para familias|Centro da juventude|Semaforos inteligentes
+VEREADOR: Marcela Nogueira Toledo,01892957248,11/08/2001,715653932186,1,2,95001,95,Azenha,Programa de adocao responsavel
+ELEITOR: Silvio Correia Scherer,85217781980,04/01/1944,714632372160,1,2
+ELEITOR: Regina Nogueira Moreira,45904356161,05/10/1993,377903642178,1,2
+ELEITOR: Gabriel Rocha Meireles,80922516570,05/12/1966,232398242100,1,3
+VEREADOR: Arthur Franca Rodrigues,00861321138,04/07/1997,951050722194,1,3,36001,36,Bom Fim,Programa de plantio de arvores|Aplicativo de servicos municipais|Pontos de onibus cobertos
+VEREADOR: Wesley Sampaio Cavalcanti,47708999804,16/09/1999,367738262100,1,2,66007,66,Bom Fim,Programa de estagio municipal|Bibliotecas nos bairros
+ELEITOR: Camila Cardoso Azevedo,65787418360,30/11/1972,311207672178,1,3
+VEREADOR: Eloa Farias Campos,36901634552,06/08/1994,618502082143,1,3,75007,75,Bom Fim,Centro municipal de artes
+ELEITOR: Alexandre Mesquita Chaves,36566565760,14/06/1937,396390742194,1,3
+VEREADOR: Cesar Bassani Matos,04577164108,21/08/1967,998642572160,1,1,95008,95,Petropolis,Museu historico municipal
+ELEITOR: Gilberto Dutra Medeiros,21097307492,04/01/1971,021400882119,2,1
+ELEITOR: Eduarda Cruz Borges,90015108171,24/05/1981,992684842160,1,1
+VEREADOR: Jose Farias Godoy,63023613974,26/11/1994,263884102143,1,2,12005,12,Menino Deus,Programa de plantio de arvores|Central de atendimento digital
+VEREADOR: Murilo Schmidt Castro,07698536769,08/04/1946,208748002186,2,1,12002,12,Petropolis,Festival cultural municipal|Espacos de lazer para familias
+ELEITOR: Daniel Santana Vieira,24086754053,31/01/1993,610852912143,1,2
+VEREADOR: Beatriz Maia Tavares,65050866251,17/05/1996,285274162135,1,3,66008,66,Bom Fim,Hortas comunitarias|Programa de incentivo a leitura|Programa de adocao responsavel
+PREFEITO: Gabriel Sampaio Camargo,89727648762,10/02/1947,617035012160,1,1,63,63,30133108473,Construcao de parques municipais
+ELEITOR: Viviane Freitas Conceicao,12335758306,03/07/1976,386005362127,1,1
+ELEITOR: Eliane Vieira Medeiros,05506256906,26/02/1961,944847992143,1,2
+ELEITOR: Monica Dias Pinheiro,84579097548,04/08/1994,577211582178,2,1
+ELEITOR: Gloria Siqueira Serrano,07874548850,08/09/1986,564765132194,1,3
+ELEITOR: Amanda Peixoto Cruz,71467417700,15/07/2002,504419122194,1,2
+ELEITOR: Nelson Garcia Farias,37438973778,22/05/1961,035187962143,1,2
+ELEITOR: Paula Vasconcelos Damasceno,69284276551,27/06/1932,674828472100,2,1
+VEREADOR: Alexandre Garcia Nunes,40082941807,18/11/1971,644532482135,1,3,36003,36,Bom Fim,Parque municipal para animais|Centro de atendimento a mulher
+VEREADOR: Luciana Vieira Azevedo,25388223604,24/09/1969,191057762127,2,1,72007,72,Petropolis,Reforma das escolas municipais
+VEREADOR: Priscila Veloso Matos,17242475902,05/03/1975,470085962178,2,1,75005,75,Navegantes,Programa de estagio municipal
+ELEITOR: Alice Zanetti Dias,30196603609,26/03/1949,927431892100,1,1
+ELEITOR: Bruno Krause Santos,94882478358,03/07/2007,503317112100,2,1
+PREFEITO: Sara Bassani Macedo,07433866477,27/06/2010,548601502100,1,1,119,19,35346691855,Puts errei meu cadastro dessa vez
+PREFEITO: Sara Bassani Macedo,07433866477,27/06/2010,548601502100,1,1,19,19,35346691855,Pavimentacao de ruas dos bairros
+VEREADOR: Flavia Vargas Pacheco,11572811170,08/06/1990,013204812151,2,1,63001,63,Restinga,Academias ao ar livre|Programa de adocao responsavel
+ELEITOR: Emerson Meireles Nunes,56422647611,02/02/1961,877547572127,2,1
+VEREADOR: Natalia Franca Bertoli,31504673735,04/08/1991,796905272143,1,1,75001,75,Sarandi,Painéis solares em escolas
+VEREADOR: Bruno Rangel Dutra,13875703740,05/09/1978,975873872135,1,3,19002,19,Cidade Baixa,Totens de atendimento ao cidadao|Programa de apoio ao empreendedor
+ELEITOR: Adriano Pereira Lopes,35970345350,08/09/2009,344680832151,2,1
+VEREADOR: Aline Barbosa Galvao,12222978254,24/11/1953,641627902143,2,1,12006,12,Sarandi,Museu historico municipal|Faixas elevadas para pedestres|Semaforos inteligentes
+ELEITOR: Alan Melo Araujo,81487289847,07/05/1978,188211142143,2,1
+ELEITOR: Alexandre Nunes Lopes,69655657051,02/07/2006,986137042194,1,2
+VEREADOR: Roberta Reis Camargo,13182062271,04/05/1937,107304522100,1,2,66011,66,Azenha,Centro da juventude|Programa de iluminacao de pracas
+PREFEITO: Natalia Fernandes Tavares,97756997387,12/03/1989,600760112119,1,3,66,66,76317310637,Adaptacao de espacos publicos para pessoas com deficiencia
+ELEITOR: Regina Garcia Galvao,57303635831,11/03/1938,040337692135,1,1
+VEREADOR: Kaique Camargo Moura,62258843863,03/11/1974,054019792160,1,3,63004,63,Menino Deus,Espaco para startups locais
+ELEITOR: Breno Machado Ventura,31814113290,08/06/1989,779746162135,1,1
+VEREADOR: Gabriel Pereira Pereira,88643966673,08/05/2000,724726192151,2,1,95007,95,Petropolis,Programa de apoio ao empreendedor
+ELEITOR: Emanuelle Soares Schmidt,19863087742,11/05/1946,400921772143,1,1
+ELEITOR: Mariana Siqueira Macedo,73925481079,07/02/1967,231590122119,1,3

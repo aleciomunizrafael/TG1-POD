@@ -1,0 +1,18 @@
+#########################################################################################
+# Os dados a seguir estão organizados da seguinte forma:                                #
+#   Linhas que começam com "PARTIDO:" são instancias de partido no seguinte formato:    #
+#       numero,sigla,nome,cnpj                                                          #
+#########################################################################################
+
+PARTIDO: 16,PRP,Partido da Renovacao Popular,47378404000187
+PARTIDO: 21,ADP,Alianca Democratica Popular,26112004000155
+PARTIDO: 40,UDP,Partido Internet Rapida,26250136000143
+PARTIDO: 41,PCN,Partido Comunitario Nacional,59757165000155
+PARTIDO: 43,PRA,Partido Republicano Alternativo,98941200000143
+PARTIDO: 52,MTS,Movimento Trabalhista Social,25578120000100
+PARTIDO: 53,NVB,Novo Brasil,94806196000150
+PARTIDO: 59,TCP,Partido Internet Confiavel,99464323000101
+PARTIDO: 64,PCA,Partido Comunitario Alternativo,38744742000102
+PARTIDO: 71,PSR,Partido Social Republicano,35107288000182
+PARTIDO: 81,MDC,Movimento Democratico Cidadao,84024578000178
+PARTIDO: 86,PAC,Partido Acao Cidada,77223558000160
