@@ -1,0 +1,16 @@
+Nome não pode ter mais de 50 caracteres: linha [' 52', 'FDS', 'Partido Que Defende Que o Final de Semana Comeca na Quinta', '12365478974195']
+CNPJ deve ter 14 dígitos: '1234567890001': linha [' 11', 'EUA', 'Partido Americano', '1234567890001']
+Nome não pode ter mais de 50 caracteres: linha [' 99', 'BIG', 'Partido Com Um Nome Maior Do Que Cinquenta Caracteres', '12587458956845']
+CPF do vice inválido: '2629245437': linha [' Sr. Epaminondas', '12345678910', '07/08/1905', '604060442135', '2', '1', '75', '75', '2629245437', 'Instalacao de cameras na lua']
+Nome não pode ter mais de 50 caracteres: linha [' Messi é melhor do que o Cristiano Ronaldo nao tem como', '12345678910', '01/01/2026', '12345678910', '1', '3']
+Número de candidato a vereador deve ter 5 dígitos.: linha [' Lionel Messi', '19794129950', '19/10/1981', '704528392186', '1', '2', '10', '19', 'Bons Ares', 'Central de atendimento digital para jogadores|Incubadora de clubes municipais']
+CPF deve ter 11 dígitos: 'abcdefghijk': linha [' Danadinho da Silva', 'abcdefghijk', '29/01/1935', '035108222135', '1', '3']
+Número de candidato a prefeito deve ter 2 dígitos.: linha [' Sara Bassani Macedo', '07433866477', '27/06/2010', '548601502100', '1', '1', '119', '19', '35346691855', 'Puts errei meu cadastro dessa vez']
+----------------------------------------
+Relatorio de Erros
+----------------------------------------
+Partidos com nome ou CNPJ inválido: 3
+Candidatos a prefeito com número inválido: 1
+Candidatos a vereador com número inválido: 1
+----------------------------------------
+

@@ -1,0 +1,33 @@
+#########################################################################################
+# Os dados a seguir estão organizados da seguinte forma:                                #
+#   Linhas que começam com "PARTIDO:" são instancias de partido no seguinte formato:    #
+#       numero,sigla,nome,cnpj                                                          #
+#########################################################################################
+
+PARTIDO: 11,PST,Partido Social Trabalhista,84716846000112
+PARTIDO: 12,PRA,Partido Republicano Alternativo,63168266000168
+PARTIDO: 14,MDC,Movimento Democratico Cidadao,77587765000102
+PARTIDO: 15,NVB,Novo Brasil,25385182000197
+PARTIDO: 16,PFD,Partido Federal Democratico,99474635000198
+PARTIDO: 21,PRU,Partido Renovacao Urbana,78398943000101
+PARTIDO: 26,PRP,Partido da Renovacao Popular,03711665000100
+PARTIDO: 33,FPN,Frente Popular Nacional,41400445000146
+PARTIDO: 37,PSR,Partido Social Republicano,69447790000154
+PARTIDO: 42,PLI,Partido Liberal Independente,71312756000114
+PARTIDO: 46,PDC,Partido Democratico Cidadao,54966618000130
+PARTIDO: 49,PVS,Partido Verde Sustentavel,28264112000179
+PARTIDO: 56,PCN,Partido Comunitario Nacional,47047735000134
+PARTIDO: 57,MPR,Movimento Progressista Republicano,09469534000136
+PARTIDO: 64,FRD,Frente Reformista Democratica,01527966000144
+PARTIDO: 66,PVR,Partido da Vida Republicana,05124187000159
+PARTIDO: 69,PCA,Partido Comunitario Alternativo,73203523000109
+PARTIDO: 72,PDS,Partido Democratico Social,15513751000189
+PARTIDO: 75,ALI,Alianca Liberal Independente,97716627000185
+PARTIDO: 76,UPB,Uniao Popular Brasileira,72455332000171
+PARTIDO: 77,ADP,Alianca Democratica Popular,19935464000118
+PARTIDO: 85,MTS,Movimento Trabalhista Social,18504276000172
+PARTIDO: 88,PAC,Partido Acao Cidada,03758879000123
+PARTIDO: 89,UDP,Partido Internet Rapida,37300395000158
+PARTIDO: 92,MCR,Movimento Cidadao Republicano,38459660000108
+PARTIDO: 94,UPP,Uniao Popular Progressista,96584639000130
+PARTIDO: 99,TCP,Partido Internet Confiavel,94170625000145
